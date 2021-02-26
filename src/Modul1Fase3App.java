@@ -9,7 +9,7 @@ public class Modul1Fase3App {
 		String correcte="El teu any de naixement  és de traspàs";
 		String incorrecte="El teu any de naixement no és de traspàs";
 		
-				String naixement=JOptionPane.showInputDialog("Introdueix el teu any de naixement");
+		String naixement=JOptionPane.showInputDialog("Introdueix el teu any de naixement");
 		int anyNaixement = Integer.parseInt(naixement);
 		for(int i=ANY;i<=anyNaixement;i++){
 			if((i % 4 == 0)&&(i % 100 != 100)|| (i % 400 == 0))
@@ -17,7 +17,7 @@ public class Modul1Fase3App {
 			System.out.println("any " + i);
 			contador++;	
 			if(i == anyNaixement){
-				comprobacio = true;
+				comprobacio = true;	
 				
 			}
 		}
